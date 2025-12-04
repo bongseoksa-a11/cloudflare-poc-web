@@ -1,8 +1,12 @@
 name = "cloudflare-poc-web"
 compatibility_date = "2025-12-04"
+compatibility_flags = ["nodejs_compat"]
+
+main = ".open-next/worker.js"
 
 [build]
 command = "pnpm run build"
 
 [assets]
 directory = ".open-next/assets"
+binding = "ASSETS"
