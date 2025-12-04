@@ -1,0 +1,5 @@
+name = "cloudflare-poc-web"
+compatibility_date = "2025-12-04"
+
+[build]
+command = "pnpm run build"
