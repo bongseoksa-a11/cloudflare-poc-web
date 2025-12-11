@@ -7,7 +7,6 @@ const env = {
 }
 
 export async function middleware(request: NextRequest) {
-    console.log("미들웨어!")
     console.log(env.NEXTJS_ENV)
 
     const nextUrl = request.nextUrl;
