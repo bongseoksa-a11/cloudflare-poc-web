@@ -7,8 +7,6 @@ const env = {
 }
 
 export async function middleware(request: NextRequest) {
-    console.log(env.NEXTJS_ENV)
-
     const nextUrl = request.nextUrl;
     const pathName = nextUrl.pathname;
 
