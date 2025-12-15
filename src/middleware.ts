@@ -1,11 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import routesManifest from "./routes-manifest.json";
 
-const env = {
-    NEXTJS_ENV: process.env.NEXT_PUBLIC_ENV,
-    TEST: process.env.TEST,
-}
-
 export async function middleware(request: NextRequest) {
     const nextUrl = request.nextUrl;
     const pathName = nextUrl.pathname;
