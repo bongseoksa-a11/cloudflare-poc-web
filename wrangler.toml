@@ -1,4 +1,4 @@
-name = "cloudflare-poc-web"
+name = "cloudflare-poc-web2"
 compatibility_date = "2025-12-04"
 compatibility_flags = ["nodejs_compat"]
 
